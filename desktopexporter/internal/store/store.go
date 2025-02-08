@@ -12,7 +12,7 @@ import (
 
 	"github.com/marcboeker/go-duckdb"
 
-	"github.com/CtrlSpice/otel-desktop-viewer/desktopexporter/internal/telemetry"
+	"github.com/nivekithan/otel-desktop-viewer/desktopexporter/internal/telemetry"
 )
 
 type Store struct {

@@ -15,17 +15,19 @@ Also, it has a dark mode.
 ## Getting started
 
 #### via Homebrew
+
 ```bash
 brew tap CtrlSpice/homebrew-otel-desktop-viewer
 brew install otel-desktop-viewer
 ```
 
 #### via `go install`
+
 Make sure you have [go](https://go.dev/) installed.
 
 ```bash
 # install the CLI tool
-go install github.com/CtrlSpice/otel-desktop-viewer@latest
+go install github.com/nivekithan/otel-desktop-viewer@latest
 
 # run it!
 $(go env GOPATH)/bin/otel-desktop-viewer
@@ -43,6 +45,7 @@ and spin up a server listening on `localhost:4318` for OTLP http payloads and
 `localhost:4317` for OTLP grpc payloads.
 
 ## Command Line Options
+
 ```bash
 Flags:
       --browser int   The port number where we expose our data (default 8000)
@@ -74,20 +77,21 @@ export OTEL_EXPORTER_OTLP_ENDPOINT="http://localhost:4317"
 export OTEL_TRACES_EXPORTER="otlp"
 export OTEL_EXPORTER_OTLP_PROTOCOL="grpc"
 ```
+
 ## Keyboard navigation and shortcuts
+
 ```bash
 Navigation:
-    Move up the trace summary list:      ← or h 
-    Move down the trace summary list:    → or l 
+    Move up the trace summary list:      ← or h
+    Move down the trace summary list:    → or l
     Move up the span list:               ↑ or k
     Move down the span list:             ↓ or j
 
 Shortcuts:
-    Clear all traces:                    ctrl + l 
+    Clear all traces:                    ctrl + l
     Refresh the page:                    r
-    Bring up the keyboard help dialog:   ? 
+    Bring up the keyboard help dialog:   ?
 ```
-
 
 ## Example with `otel-cli`
 
@@ -152,13 +156,12 @@ data, but when working locally our experience often looks more like this:
 
 You can use [Jaeger's all-in-one](https://www.jaegertracing.io/docs/1.41/deployment/#all-in-one)
 distribution, but this requires quite a bit of additional knowledge for the end-user around docker and
-navigating a lot of configuration options. Additionally the user experience is not focused around 
+navigating a lot of configuration options. Additionally the user experience is not focused around
 "show me the data I just emitted".
 
 The goals for `otel-desktop-viewer` are to allow a user to install it with one command, require
 minimal configuration and additional tooling, and be as approachable as possible for developers
 at all levels of experience.
-
 
 ## Implementation
 
@@ -176,9 +179,10 @@ directive so that the binary is self-contained and relocatable.
 
 Her name is Lulu Axol'Otel, she is very pink, and I love her.
 
-More seriously, I like to give my [side projects](https://github.com/CtrlSpice/bumblebee-consolematch) an 
+More seriously, I like to give my [side projects](https://github.com/CtrlSpice/bumblebee-consolematch) an
 [animal theme](https://github.com/CtrlSpice/yak-vs-yak) to add a little aesthetic
 interest on what otherwise might be fairly plain applications.
 
 ## License
+
 Apache 2.0, see LICENSE

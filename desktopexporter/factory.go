@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/CtrlSpice/otel-desktop-viewer/desktopexporter/internal/metadata"
-	"github.com/CtrlSpice/otel-desktop-viewer/desktopexporter/internal/sharedcomponent"
+	"github.com/nivekithan/otel-desktop-viewer/desktopexporter/internal/metadata"
+	"github.com/nivekithan/otel-desktop-viewer/desktopexporter/internal/sharedcomponent"
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/exporter"

@@ -10,8 +10,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/CtrlSpice/otel-desktop-viewer/desktopexporter/internal/store"
-	"github.com/CtrlSpice/otel-desktop-viewer/desktopexporter/internal/telemetry"
+	"github.com/nivekithan/otel-desktop-viewer/desktopexporter/internal/store"
+	"github.com/nivekithan/otel-desktop-viewer/desktopexporter/internal/telemetry"
 )
 
 //go:embed static/*

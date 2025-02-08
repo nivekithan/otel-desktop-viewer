@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/CtrlSpice/otel-desktop-viewer/desktopexporter/internal/telemetry"
+	"github.com/nivekithan/otel-desktop-viewer/desktopexporter/internal/telemetry"
 	"github.com/stretchr/testify/assert"
 )
 

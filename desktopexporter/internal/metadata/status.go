@@ -6,7 +6,7 @@ import (
 
 var (
 	Type      = component.MustNewType("desktop")
-	ScopeName = "github.com/CtrlSpice/otel-desktop-viewer/desktopexporter"
+	ScopeName = "github.com/nivekithan/otel-desktop-viewer/desktopexporter"
 )
 
 const (

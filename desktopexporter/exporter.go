@@ -11,8 +11,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/CtrlSpice/otel-desktop-viewer/desktopexporter/internal/server"
-	"github.com/CtrlSpice/otel-desktop-viewer/desktopexporter/internal/telemetry"
+	"github.com/nivekithan/otel-desktop-viewer/desktopexporter/internal/server"
+	"github.com/nivekithan/otel-desktop-viewer/desktopexporter/internal/telemetry"
 )
 
 type desktopExporter struct {
